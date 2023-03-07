@@ -34,7 +34,7 @@ If the `condition` is true, the code after the `guard` statement is executed as 
 
 Another useful feature of `guard` is that it allows you to bind a value to a constant or variable if the condition is true, and use that value in the rest of your code. 
 
-##Here's an example:
+## Here's an example:
 
 
 ```swift
