@@ -10,6 +10,7 @@ git clone https://github.com/wandersonsc/swift-guard-
 ```
 
 
+
 ## Here's the basic syntax of a guard statement in Swift:
 
 
@@ -31,7 +32,9 @@ In this example, the `guard` statement checks a certain `condition`. If the `con
 
 If the `condition` is true, the code after the `guard` statement is executed as normal. This way, you can be sure that certain conditions are met before your code continues, and avoid having to nest multiple if statements or write long chains of guard statements.
 
-Another useful feature of `guard` is that it allows you to bind a value to a constant or variable if the condition is true, and use that value in the rest of your code. Here's an example:
+Another useful feature of `guard` is that it allows you to bind a value to a constant or variable if the condition is true, and use that value in the rest of your code. 
+
+##Here's an example:
 
 
 ```swift
@@ -47,6 +50,8 @@ func doSomething() {
 
 ```
 
+
 In this example, the `guard` statement checks if an `optionalValue` is nil. If it is, the code in the `else` block is executed and the function returns. If it is not nil, the `let value = optionalValue` statement binds the value of `optionalValue` to a constant called `value`, which can be used in the rest of the code after the guard statement.
 
 Using `guard` statements can help you write clearer and more readable code by keeping your error handling and condition checking separate from the rest of your code, and avoiding deeply nested if statements.
+
