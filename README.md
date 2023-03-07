@@ -45,9 +45,8 @@ func doSomething() {
     print(value)
 }
 
+```
+
 In this example, the `guard` statement checks if an `optionalValue` is nil. If it is, the code in the `else` block is executed and the function returns. If it is not nil, the `let value = optionalValue` statement binds the value of `optionalValue` to a constant called `value`, which can be used in the rest of the code after the guard statement.
 
 Using `guard` statements can help you write clearer and more readable code by keeping your error handling and condition checking separate from the rest of your code, and avoiding deeply nested if statements.
-
-
-```
